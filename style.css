@@ -1,0 +1,52 @@
+/* This is a stylesheet for BasicCSS.html */
+
+p {
+    color: #41350A;
+    background-color: #A0AF2B; 
+  }
+
+.h3 {
+  color:#40330C;
+}
+.h2 {
+  color: #AF6621; 
+}
+  .specialp {
+    color: #6A6F0A;
+    /*background-color: #E4EBC1;*/
+  }
+
+  #specialid {
+    color: #41350A;
+    background-color: #E4EBC1;
+  }
+
+  .divexample {
+    background-color: #E1CE88;
+  }
+  
+  .div1 {
+    background-color: antiquewhite;
+  }
+
+  .spanstyle {
+    color: #C64A14; 
+  }
+  .span1 {
+    color: #2C2306;
+  }
+
+ a:link {
+  color: red;
+ }
+
+
+  a:visited {
+    color: #A0CC33;
+  }
+
+  a:hover {
+    color: yellow;
+  }  
+
+     
