@@ -1,52 +1,65 @@
-/* This is a stylesheet for BasicCSS.html */
+/*This is a style sheet for FixandStyle.html*/
 
-p {
-    color: #41350A;
-    background-color: #A0AF2B; 
-  }
+/*LINK STYLE*/
 
-.h3 {
-  color:#40330C;
-}
-.h2 {
-  color: #AF6621; 
-}
-  .specialp {
-    color: #6A6F0A;
-    /*background-color: #E4EBC1;*/
-  }
-
-  #specialid {
-    color: #41350A;
-    background-color: #E4EBC1;
-  }
-
-  .divexample {
-    background-color: #E1CE88;
-  }
-  
-  .div1 {
-    background-color: antiquewhite;
-  }
-
-  .spanstyle {
-    color: #C64A14; 
-  }
-  .span1 {
-    color: #2C2306;
-  }
-
- a:link {
-  color: red;
- }
-
-
-  a:visited {
-    color: #A0CC33;
+a {
+    color: green;
   }
 
   a:hover {
-    color: yellow;
-  }  
+    color: red;
+  }    
 
-     
+  a {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+
+
+
+  /*DIV*/
+
+  .div1 {
+    
+    background-color: #99AAFF;
+  }
+
+  .div2 {
+    background-color: yellow;
+  }
+
+  /*CLASSES*/
+
+
+.h1 {
+    color: white;
+}
+
+  .h2 {
+    color: blue;
+}
+
+.h4 {
+    color: yellow;
+    background-color: green;
+}
+
+.greenp {
+    background-color: springgreen;
+}
+
+.redclass {
+    color: red;
+}
+
+.spanstyle {
+    color: orange;
+}
+
+.spanstyle2 {
+    color: blue;
+}
