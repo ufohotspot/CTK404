@@ -1,0 +1,129 @@
+/*this is a stylesheet for Assignment4.html*/
+
+/*FONTS*/
+
+.customtext {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+/*CLASSES*/
+
+.h1 {
+    color: #ff7b00;
+    font: italic normal 20px Arial, Helvetica, serif;
+        background-color: #ffc7387a;
+}
+
+.h2 {
+color: #ff9129;
+font: italic normal 20px Arial, Helvetica, serif;
+    background-color: #ffc7387a;
+}
+
+.h3 {
+    color:#ffaa5b;
+    font: italic normal 16px Arial, Helvetica, serif;
+    background-color: #ffc7387a;
+}
+
+.h4 {
+    color:#ffaa5b;
+    font: italic normal 13px Arial, Helvetica, serif;
+    background-color: #ffc7387a;
+}
+
+.centerp {
+    text-align: center;
+    color:#8a9215;
+}
+.justifyp {
+    width: 500px;
+    text-align: justify; 
+    color: #8a9215;
+}
+
+.nav {
+    font: normal 10px Arial, Helvetica, sans-serif;
+    border: 2px solid #6A6F0A;
+    padding: 2px;
+    margin: 10px 10px;
+    background-color: #E1CE88;
+    width: 200px;
+    align-self: center;
+}
+
+.footer {
+    font-size: 7px;
+    text-align: center;
+    color: antiquewhite;
+}
+
+
+/*PAGE LAYOUT*/
+
+body {
+    background-color: #eeeeee;
+}
+
+main {
+    background-color: #E4EBC1;
+}  
+
+.divexample {
+    background-color: #E1CE88;
+  }
+
+/*ALIGNMENT*/
+.textcenter {
+    text-align: center;
+}
+
+.textjustify {
+    text-align: justify;
+}
+
+/*BORDER*/
+
+.zeroout {
+    margin: 0;
+    padding: 0;
+}
+.imgbox {
+    border: 25px solid black;
+    padding: 20px;
+    margin: 40px 10px 10px 10px;
+    background-color: #ffcc00;
+    
+}
+
+.boxmod {
+    border: 5px solid #6A6F0A;
+    padding: 2px;
+    margin: 40px 10px;
+    background-color: #E1CE88;
+    width: 200px;
+    line-height: 12px;
+    font-size: smaller;
+}
+.boxmod2 {
+    border: 5px solid #6A6F0A;
+    padding: 2px;
+    margin: 40px 10px;
+    background-color: #E1CE88;
+    width: 450px;
+    line-height: 12px;
+    font-size: smaller;
+}
+
+
+body {
+    background-color: #AF6621;
+    background-image: url(forest1.png);
+    background-repeat: repeat;
+    background-position: center;
+}   
+
+.spanstyle {
+    color: #C64A14; 
+  }
