@@ -1,0 +1,116 @@
+/*this is a style sheet for assignment5.html*/
+.zeroout {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(a5bg.png);
+    background-repeat: repeat;
+    background-position: center;
+}
+
+head {
+    display: block;
+    color: white;
+  
+}
+
+h1, h3, h4, h5 {
+    font-weight: normal;
+}
+h2 {
+  font-weight: bold;
+    border-bottom: 3px solid black;
+    padding: 10px 0px 10px 0px; 
+    text-align: justify;
+}
+
+.headdiv {
+  border: 0px 5px 0px 5px solid white;
+  background-color: white;
+  padding: 5px 25px 5px 25px;
+  margin: 10px 10px 10px 10px;
+}
+
+/*      TOP  RGHT BOTM LEFT 
+margin: 10px 10px 10px 10px; */
+
+.div {
+  background-color: white;
+  border: 5px 10px 10px 10px solid white;
+  padding: 25px; 
+  margin: 5px 10px 5px 10px;
+}
+
+.justifydiv {
+  text-align: justify;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 25px 0px 10px 0px; 
+}
+
+.footerdiv {
+  border: 5px solid white;
+  color: white; 
+  background-color: darkblue;
+  padding: 25px 60px 25px 60px; 
+  margin: 40px 10px 40px 10px; 
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+}
+
+/*links*/
+
+body a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+body a:visited {
+  color: #0000ff;
+}
+
+body a:hover {
+  color: red;
+  text-decoration: underline;
+}  
+
+nav ul {
+    list-style-type: none;
+    padding: 0; 
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav li {
+    border: 0px;
+    background-color: darkblue;
+  
+    margin: 20px 10px 25px 10px;
+    width: 150px;
+    color: #ffffff;
+    text-align: justify;
+    display: inline-block;
+}
+
+nav li a {
+  color: #ffffff;
+  padding: 10px;
+  border: 0px;
+  background-color: darkblue;
+  display: block;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  color: white; 
+  background-color: blue;
+  text-decoration: none;
+}
+
+
+
+
