@@ -6,7 +6,7 @@ body {
   
   
   #wrapper {
-    margin: 24px auto;
+    margin: 15px auto;
     width: 1200px;
     background-color: #ffffff;
     background-size: cover;
@@ -24,6 +24,7 @@ body {
   header {
     grid-column: span 12; 
     background-color: #ffffff;
+    margin: 20px;
   }
   
   main {
@@ -33,25 +34,24 @@ body {
   h1 {
     font-size: larger;
     font-family: 'Spline Sans Mono', monospace;
- text-align: left;
-padding: 5px; 
- color: #191900; 
+    text-align: left;
+    padding: 5px; 
+    color: #191900; 
  }
+
  h2 {
   font-size: large;
   font-family: 'Spline Sans Mono', monospace;
-text-align: left;
-padding: 15px, 0px; 
-margin: 10px; 
-color: #191900; 
+  text-align: left;
+  color: #191900; 
+  margin: 3px; 
  }
 
   h3 {
-     font-size: small;
-     font-family: 'Teko', sans-serif;
-  text-align: center;
-  margin: 15px; 
-  color: #191900; 
+    font-size: small;
+    font-family: 'Teko', sans-serif;
+    text-align: center; 
+    color: #191900; 
   }
   
   nav {
@@ -74,10 +74,6 @@ color: #191900;
     margin: 0, 24px; 
     display: inline-block;
   }
-  
-  body {
-    background: #ffffff; 
-  }   
 
   aside {
     grid-column: span 1; 
@@ -96,8 +92,7 @@ color: #191900;
     border: 1px; 
     position: relative;
     display: inline-block;
-    margin: 20px, 20px, 20px, 20px;
-    color: #2c2c00; 
+    padding-left: 5px; 
   }
   
   footer p {
@@ -105,6 +100,12 @@ color: #191900;
     position: relative;
     display: inline-block;
     margin: 20px, 20px, 20px, 20px;
+  }
+
+  footer img {
+    width: 10%; 
+    display: block;
+    margin-left: auto;
   }
 
   .responsive {
@@ -125,15 +126,14 @@ color: #191900;
   /* Dropup Button */
   .dropbtn {
     font-family: 'Teko', sans-serif;
+    text-align: left; 
     background-color: #ffffff;
     color: #2c2c00;
     padding: 16px;
     font-size: 16px;
     border: none;
-    box-shadow: inset, 0px 8px 16px 0px rgba(0,0,0,0.2);
     min-width: 160px;
     transition: background-color 1.0s, width 2.0s, color 2.0s;
-    margin: 20px, 0px, 0px, 20px;
   }
   
   /* The container <div> - needed to position the dropup content */
@@ -262,5 +262,28 @@ img {
 
 .gallery__item--v-3 {
   grid-row-end: span 3;
+}
+
+
+/*HOME ANIMATION*/
+body {
+  padding: 30px;
+}
+
+#animate {
+  position: absolute;
+  background-image: "bug1.png";
+  width: 50%;
+  animation-duration: 20s;
+  animation-delay: 2s;
+  animation: move 15s ease infinite;
+}
+
+@keyframes move {
+  0%   {left:0px; top:0px;}
+  25%  {left:300px; top:0px;}
+  50%  {left:200px; top:300px;}
+  75%  {left:0px; top:200px;}
+  100% {left:0px; top:0px;}
 }
 
