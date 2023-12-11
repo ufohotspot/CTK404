@@ -1,0 +1,266 @@
+body {
+  font-family: 'Dhurjati', sans-serif;
+  font-family: 'Spline Sans Mono', monospace;
+  font-family: 'Teko', sans-serif;
+  }
+  
+  
+  #wrapper {
+    margin: 24px auto;
+    width: 1200px;
+    background-color: #ffffff;
+    background-size: cover;
+    border: 1px; 
+    border-color: #b3b3b3, 255, 255; 
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 24px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+  
+  header {
+    grid-column: span 12; 
+    background-color: #ffffff;
+  }
+  
+  main {
+    grid-column: span 12; 
+  }
+
+  h1 {
+    font-size: larger;
+    font-family: 'Spline Sans Mono', monospace;
+ text-align: left;
+padding: 5px; 
+ color: #191900; 
+ }
+ h2 {
+  font-size: large;
+  font-family: 'Spline Sans Mono', monospace;
+text-align: left;
+padding: 15px, 0px; 
+margin: 10px; 
+color: #191900; 
+ }
+
+  h3 {
+     font-size: small;
+     font-family: 'Teko', sans-serif;
+  text-align: center;
+  margin: 15px; 
+  color: #191900; 
+  }
+  
+  nav {
+    grid-column: span 2; 
+    background-color: #ffffff;
+  }
+  
+  nav ul {
+    padding: 0; 
+    margin: 0; 
+    list-style: none; 
+    list-style-type: none;
+  
+  }
+  
+  nav li {
+    background-color: #5f5f00;
+    color: #2c2c00; 
+    padding: 24px; 
+    margin: 0, 24px; 
+    display: inline-block;
+  }
+  
+  body {
+    background: #ffffff; 
+  }   
+
+  aside {
+    grid-column: span 1; 
+  }
+  
+  aside img {
+    grid-column: span 1; 
+    width: 75%;
+    margin: 10px; 
+  }
+  
+  footer {
+    grid-column: span 12; 
+    grid-row: span 1; 
+    background-color: #ffffff;
+    border: 1px; 
+    position: relative;
+    display: inline-block;
+    margin: 20px, 20px, 20px, 20px;
+    color: #2c2c00; 
+  }
+  
+  footer p {
+    background-color: #ffffff;
+    position: relative;
+    display: inline-block;
+    margin: 20px, 20px, 20px, 20px;
+  }
+
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
+  
+  .div {
+    background-color: #ffffff;
+    border: none;
+    padding: 15px; 
+    margin: 5px 5px 5px 5px;
+    grid-column: span 10; 
+  }
+  
+  /*DROPUP*/
+  
+  /* Dropup Button */
+  .dropbtn {
+    font-family: 'Teko', sans-serif;
+    background-color: #ffffff;
+    color: #2c2c00;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    box-shadow: inset, 0px 8px 16px 0px rgba(0,0,0,0.2);
+    min-width: 160px;
+    transition: background-color 1.0s, width 2.0s, color 2.0s;
+    margin: 20px, 0px, 0px, 20px;
+  }
+  
+  /* The container <div> - needed to position the dropup content */
+  .dropup {
+    position: relative;
+    display: inline-block;
+    margin: 20px, 0px, 0px, 20px; 
+    background-color: #ffffff;
+  }
+  
+  /* Dropup content (Hidden by Default) */
+  .dropup-content {
+    display: none;
+    position: absolute;
+    bottom: 50px;
+    background-color: #ffffff;
+    min-width: 200px;
+    z-index: 1;
+    margin: 20px, 0px,0px,0px; 
+  }
+  
+  /* Links inside the dropup */
+  .dropup-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    background-color: #ffffff;
+  }
+  
+  /* Change color of dropup links on hover */
+  .dropup-content a:hover {
+    background-color: #f3f3f3;
+    transition: background-color 1.0s, width 2.0s, color 2.0s;}
+  
+  /* Show the dropup menu on hover */
+  .dropup:hover .dropup-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropup button when the dropup content is shown */
+  .dropup:hover .dropbtn {
+    background-color: #f3f3f3;
+  }
+  
+
+
+article {
+  grid-column: span 10;
+  background-color: #ffffff;
+  margin: 20px; 
+  align-items: center;
+  padding: 25px; 
+}
+
+article img {
+  width: 40%;
+  align-items: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-block-size: 100vh;
+  padding: 5vmin;
+}
+
+img {
+  block-size: auto;
+  max-inline-size: 100%;
+  vertical-align: middle;
+}
+
+/* Embed */
+
+.embed {
+  overflow: hidden;
+  padding-block-start: 100%;
+  position: relative;
+}
+
+.embed--1-2 {
+  padding-top: calc(100% / (1 / 2));
+}
+
+.embed--2-1 {
+  padding-top: calc(100% / (2 / 1));
+}
+
+.embed--2-3 {
+  padding-top: calc(100% / (2 / 3));
+}
+
+.embed > * {
+  height: 100%;
+  left: 0;
+  object-fit: cover;
+  padding: 0.25em;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+/* Gallery  */
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.gallery__item--h-2 {
+  grid-column-end: span 2;
+}
+
+.gallery__item--h-3 {
+  grid-column-end: span 3;
+}
+
+.gallery__item--v-2 {
+  grid-row-end: span 2;
+}
+
+.gallery__item--v-3 {
+  grid-row-end: span 3;
+}
+
